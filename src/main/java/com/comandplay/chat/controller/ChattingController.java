@@ -2,7 +2,7 @@ package com.comandplay.chat.controller;
 
 
 import com.comandplay.chat.model.ChattingMessage;
-import com.comandplay.chat.service.Receiver;
+// import com.comandplay.chat.service.Receiver;
 import com.comandplay.chat.service.Sender;
 // import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;

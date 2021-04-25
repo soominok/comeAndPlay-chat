@@ -18,7 +18,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/chatting").setAllowedOrigins("*").withSockJS();
+        registry.addEndpoint("/chatting").setAllowedOriginPatterns("*").withSockJS();
         // URL//chatting  <-웹소켓 연결 주소
     }
 }
